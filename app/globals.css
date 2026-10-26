@@ -46,3 +46,8 @@ path.pred{fill:none;stroke:var(--teal);stroke-width:2.8;stroke-dasharray:7 5;str
 .foot{border-top:1px solid var(--line);padding:2rem clamp(1rem,4vw,3rem);max-width:1100px;margin:2rem auto 0;color:var(--muted);font-size:.93rem}
 @media(max-width:560px){.top nav{gap:.9rem}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+a.brand{text-decoration:none;color:var(--ink)}
+.foot a{color:var(--teal)}
+.legal{max-width:760px}.legal h1{font-size:clamp(2rem,4.5vw,3rem);max-width:none}
+.legal section{margin-top:2rem}.legal h2{font-size:1.35rem;margin-bottom:.5rem}.legal section p{margin:.5rem 0}
+.resumen{background:var(--teal2);border-left:4px solid var(--teal);padding:.9rem 1.2rem;border-radius:0 10px 10px 0;margin:1.2rem 0 0}

@@ -26,14 +26,6 @@ const pasos = ["Cargar CSV", "Limpiar", "Explorar", "Predecir 24 h", "Visualizar
 export default function Home() {
   return (
     <>
-      <header className="top">
-        <span className="brand">AireGDL <b>2.0</b></span>
-        <nav>
-          <a href="#panel">Panel</a>
-          <a href="#alcance">Alcance</a>
-          <a href="#producto">Producto</a>
-        </nav>
-      </header>
 
       <main>
         <section className="hero">
@@ -78,15 +70,6 @@ export default function Home() {
           </dl>
         </section>
       </main>
-
-      <footer className="foot">
-        <p>
-          Propósito: acordar qué debe hacer el sistema antes de diseñarlo e implementarlo. Está dirigido al
-          autor, a los docentes que evalúan el proyecto y a quien quiera conocer el comportamiento del aire
-          en la zona. No sustituye a los sistemas oficiales de monitoreo.
-        </p>
-        <p>Basado en la Especificación de Requerimientos de Software (IEEE 29148) de AireGDL 2.0.</p>
-      </footer>
     </>
   );
 }
