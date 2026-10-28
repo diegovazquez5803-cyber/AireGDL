@@ -9,7 +9,9 @@ export default function SiteFooter() {
         en la zona. No sustituye a los sistemas oficiales de monitoreo.
       </p>
       <p>Basado en la Especificación de Requerimientos de Software (IEEE 29148) de AireGDL 2.0.</p>
+      <p>Proyecto final de la materia Ingeniería de software - Diego Vázquez Hernández - 218358034</p>
       <p><Link href="/aviso-confidencialidad">Aviso de confidencialidad</Link></p>
+      
     </footer>
   );
 }
